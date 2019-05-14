@@ -1,0 +1,44 @@
+@media screen and (max-width: 1000px) {
+    .sliderBar {
+       display: none;
+    }
+    .navBaner .container{
+    		display: none;
+    }.itemContent .today{
+    	display: none;
+    }
+  
+.itemContent .recommedOne .left h3,h4{
+		font-size: 12px;
+	}
+	.itemContent .recommed{
+		display: none;
+	}
+
+.shops .item1 .itembg, .shops .item1 .itembg1,.shops .item1 .itembg2,.shops .item1 .itembg3{
+	position: absolute;
+    border-top: 60px solid ;
+    border-right: 60px solid transparent;
+
+}
+.shops .item1  h4{
+	font-size: 10px;
+}
+.shops .food .foodMsg .foodLeft .top .price p:first-child{
+	font-size: 8px;
+}
+.shops .food .foodMsg .foodLeft .top .price p:nth-child(2){
+		display: none;
+}
+.shops .food .foodMsg .foodLeft .top .price p:nth-child(1){
+	font-size: 10px;
+
+}
+
+.shops .food .foodMsg .foodLeft .top .buy {
+	display: none;
+}
+.footer .footerBtm{display: none;}
+}
+}
+

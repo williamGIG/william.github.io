@@ -1,0 +1,196 @@
+body{
+	background-color: white;
+}
+.navSearch{
+	border-bottom: 2px solid #D2364C;
+}
+.detailsInfo{
+	width: 1000px;
+	height: 500px;
+	
+	margin:0 auto;
+	display: flex;
+	box-sizing: border-box;
+
+}
+.detailsInfo .detailsImg{
+	padding: 20px;
+	width: 400px;
+	margin-top: 20px;
+	
+	background-color: white;
+	border: 1px solid #C4C4C4;
+}
+
+.detailsInfo .detailsImg  .smallImg{
+	margin-top: 30px;
+}
+.detailsInfo .detailsImg  .smallImg img{
+	width: 60px;
+	border: 1px solid #DFDFDF;
+	padding: 2px;
+}
+.detailsInfo .detailsImg  .smallImg a{
+	display: inline-block;
+	padding: 0 4px;
+}
+.detailsInfo .detailsImg  .smallImg img:hover{
+		border: 1px solid #D2364C;
+		padding: 2px;
+}
+.detailsInfo .detailsCont{
+		padding: 20px 0 5px 30px;
+		width: 50%;
+		height: 480px;
+}
+.detailsInfo  .detailsCont .title{
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 5px;
+
+
+
+}
+.detailsInfo  .detailsCont .titleSpan{
+	color: red;
+	padding-bottom: 10px;
+	display: block;
+
+	
+}
+.detailsInfo  .detailsCont .price .priceP{
+	height: 42px;
+	width: 100%;
+	background-color: #2DA77A;
+	text-align: center;
+	color: white;
+	line-height: 42px;
+
+}
+.detailsInfo  .detailsCont .price .priceP span:first-child{
+	font-size: 20px;
+	font-weight: bold;
+}
+.detailsInfo  .detailsCont .price .priceP span:nth-child(2){
+	color: #FAE52C;
+
+}
+.detailsInfo  .detailsCont .price .priceBtm{
+	width: 100%;
+	height: 100px;
+	background-color: #E5E4E4;
+	padding: 10px;
+}
+.detailsInfo  .detailsCont .price .priceBtm p{
+	color: #666666;
+	padding: 2px 0;
+}
+.detailsInfo  .detailsCont .price .priceBtm p span:nth-child(2){
+	display: inline-block;
+	margin-left: 50px;
+	text-decoration: line-through;
+	color: black;
+}
+.detailsInfo  .detailsCont .price .priceBtm p img{
+	margin-right:5px;
+}
+.detailsInfo  .detailsCont .price .priceBtm .truePrice span:nth-child(2){
+margin-right: 36px;
+color: #D2364C;
+font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+
+
+
+}
+.detailsInfo  .detailsCont .sales{
+	width: 100%;
+	margin:  20px 0;
+	display: flex;
+	height: 40px;
+	line-height: 40px;
+
+	    border: dotted #C9C9C9;
+border-width: 1px 0px;
+
+}
+.detailsInfo  .detailsCont .sales p{
+	width: 50%;
+	text-align: center;
+}
+
+.detailsInfo  .detailsCont .sales p span{
+	color: #D2364C;
+}
+.detailsInfo  .detailsCont .buyNum{
+	position: relative;
+}
+.detailsInfo  .detailsCont .buyNum input{
+	padding-left: 10px;
+	width: 40px;
+	height: 30px;
+	border: 1px solid black;
+	margin-right: 20px;
+}
+.detailsInfo  .detailsCont .buyNum .arrow{
+	display: inline-block;
+	margin-top: 10px;
+	position: absolute;
+	    left: 75px;
+    top: -19px;
+
+}
+.detailsInfo  .detailsCont .buyNum .arrow span{
+		display:block;
+		border: 1px solid black;
+		margin-top: 5px;
+}
+.detailsInfo  .detailsCont  .service{
+	color: #8E8B8B;
+	padding: 15px 0;
+}
+.detailsInfo  .detailsCont  .buyBtn{
+	width: 100%;
+	height: 40px;
+	
+}
+.detailsInfo  .detailsCont  .buyBtn a button{
+	width: 180px;
+	height: 40px;
+	margin: 0 25px;
+	background-color: #FFEDED;
+	border: 1px solid #D2364C;
+	color: #D2364C;
+}
+.detailsInfo  .detailsCont  .buyBtn a button span{
+	margin-right: 5px;
+}
+.detailsInfo  .detailsCont  .buyBtn a:nth-child(2) button{
+	background-color: #D2364C;
+color: white;
+}	
+.itemDetails{
+	margin-top:100px ;
+}
+
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #b32929;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #b32929;
+    border-bottom-color: transparent;
+    font-weight: bold;
+}
+.nav-tabs {
+    border-bottom: 1px solid #b32929;
+    width: 1000px;
+    background-color: #E5E4E4;
+}
+.tab-content .twlistNews img{
+	margin: 0 40px ;
+	width: 900px;
+}

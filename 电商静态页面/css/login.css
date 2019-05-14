@@ -1,0 +1,142 @@
+.login{
+	width: 100%;
+}
+.login .loginTop{
+	height: 80px;
+}
+.login .loginMain{
+	height: 570px;
+	background-color:#FD7A72;
+}
+
+.login  .container{
+	max-width: 1200px;
+	
+	height: 100%;
+	
+}
+.login .loginMain .container{
+	position: relative;
+
+}
+.login .loginMain .loginTab{
+	position: absolute;
+	top: 20px;
+	right: 3%;
+	width: 360px;
+	height: 430px;
+	background-color: white;
+}
+.login .loginMain .loginTab h3{
+	padding: 20px 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+}
+.login .loginMain .loginTab .form{
+	position: relative;
+}
+.login .loginMain .loginTab .form img:first-child{
+	position: absolute;
+	top:0px;
+	left: 41px;
+}
+.login .loginMain .loginTab .form img:nth-child(2){
+	position: absolute;
+	left: 41px;
+	top:63px;
+
+}
+.login .loginMain .loginTab input{
+	padding-left: 45px;
+	display: block;
+	width: 80%;
+	height: 42px;
+	margin: 20px 40px;
+	border: 1px solid #DDDDDD;
+}
+.login .loginMain .loginTab .btn{
+	padding:0;
+	border: none;
+	background-color: #12AAFA;
+	color: white;
+	font-size: 16px;
+	letter-spacing: 5px
+}
+.login .loginMain .loginTab  p{
+	text-align: center;
+}
+.login .loginMain .loginTab  p span{
+	margin-left: 10px;
+}
+.login .loginMain .loginTab  p a{
+	color: #6c6c6c;
+	padding-right: 10px;
+	
+}
+.login .loginMain .loginTab .loginLink  p span{
+
+	border-right:1px solid #C6C6C6; 
+}
+.login .loginMain .loginTab .loginLink  p span:last-child{
+	border-right:none;
+}
+
+.login .loginMain .loginTab .loginLink h4{
+	text-align: center;
+	font-size: 16px;
+
+}
+.login .loginMain .loginTab .loginLink p {
+	padding: 10px 0;
+
+}
+
+
+
+/*底部*/
+
+.footer .footerTop .footerCont{
+	display: flex;
+}
+.footer .footerTop{
+background-color: #F5F5F5;
+	height: 210px;
+	border-top: 1px solid #D1D7DC;
+}
+.footer  .center{
+	height: 210px;
+	max-width: 1260px;
+	margin: 0 auto;
+		text-align: center;
+}
+
+.footer .footerTop .center .footerDetails{
+	padding-top: 20px;
+	width: 25%;
+	text-align: center;
+}
+.footer .footerTop .center .footerDetails h4{
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #646464;
+}
+.footer .footerTop .center .footerDetails p{
+	padding: 4px 0;
+}
+.footer .footerTop .center .footerDetails p a{
+	color: #8b8b8b;
+	font-size:12px;
+	
+}
+
+
+    .footer {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        
+       
+    }

@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0"/>
+    <link rel="stylesheet" type="text/css" href="asset/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/basic.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+     <link rel="stylesheet" type="text/css" href="css/details.css">
+</head>
+<body>
+<?php include "conmon/conmon.php" ?>
+<div class="detailsInfo">
+	<div class="detailsImg">
+		<img src="images/01_mid.jpg" class="midImg">
+		<div class="smallImg">
+			<a href="javascript:void(0)"><img src="images/01_mid.jpg"></a>
+			<a href="javascript:void(0)"><img src="images/02_mid.jpg"></a>
+			<a href="javascript:void(0)"><img src="images/03_mid.jpg"></a>
+			<a href="javascript:void(0)"><img src="images/01_mid.jpg"></a>
+			<a href="javascript:void(0)"><img src="images/02_mid.jpg"></a>
+		</div>
+	</div>
+	<div class="detailsCont">
+		<p class="title">良品铺子 手剥松子218g 坚果炒货 巴西松子</p>
+		<span class="titleSpan">店铺优惠购物满2件打8折，满3件7折</span>
+		<div class="price">
+			<p class="priceP"><span>聚划算</span> 此商品即将参加聚划算, <span>1天19小时后</span>	开始，</p>
+			<div class="priceBtm">
+				<p><img src="images/youhuiquan.jpg">全网店实物商品通用</p>
+                <p><span>价格</span><span>¥99.00</span></p>
+                <p class="truePrice"><span>促销价</span><span>¥69.00</span></p>
+			</div>
+		</div>
+        <div class="sales">
+            <p>销量 <span>3256</span></p>
+            <p>累计评价<span>3256</span></p>
+        </div>
+        <div class="buyNum">
+            <p>
+            <span>数量</span>
+            <input type="text" name="" value="1">
+            <span class="arrow">
+                <a href="javascript:void(0)" class="increase"><span class="glyphicon glyphicon-menu-up"></span></a>
+                <a href="avascript:void(0)" class="decrease"><span class="glyphicon glyphicon-menu-down"></span></a>
+            </span>袋 
+            <span>库存89袋</span>
+        </p>
+    </div>
+    <p class="service">服务承诺 正品保证 极速退款 赠运费险 七天无理由退换</p>
+    <div class="buyBtn">
+        <p><a href=""><button>立即购买</button></a>
+            <a href=""><button><span class="glyphicon glyphicon-shopping-cart"></span>加入购物车</button>
+             </a></p>
+
+    </div>
+	</div>
+</div>
+<div class="itemDetails">
+    <div class="container">
+     <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">商品详情</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">累计评价</a></li>
+   
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in active" id="home"><img src="images/item1.jpg">
+    <div class="twlistNews">
+        <img src="images/tw1.jpg">
+        <img src="images/tw2.jpg">
+        <img src="images/tw3.jpg">
+        <img src="images/tw4.jpg">
+        <img src="images/tw5.jpg">
+        <img src="images/tw6.jpg">
+        <img src="images/tw7.jpg">
+          </div>
+      </div>
+    <div role="tabpanel" class="tab-pane fade" id="profile">
+        <img src="images/item2.jpg">
+        <img src="images/item3.jpg">
+        <img src="images/item3.jpg">
+        <img src="images/item3.jpg">
+        <img src="images/item3.jpg">
+       
+        <img src="images/item3.jpg">
+        <img src="images/item3.jpg">
+        <img src="images/item3.jpg">
+        <img src="images/item3.jpg">
+
+    </div>
+    
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+<script type="text/javascript" src="asset/jquery-3.3.1/jquery.js"></script>
+<script type="text/javascript" src="asset/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('.arrow .increase').bind('click',function(){
+             var num=$(".buyNum input").val();
+            num++;
+            $(".buyNum input").val(num)
+        });
+        $('.arrow .decrease').bind('click',function(){
+          num=$(".buyNum input").val();
+            if (num>0) {
+                 num--;
+            $(".buyNum input").val(num)
+            }
+            else{
+                return;
+            }
+           
+        });
+        $(".smallImg img").bind("click",function(){
+            $(".detailsImg .midImg").attr("src",$(this).attr("src"));
+        })
+    })
+</script>
+</html>

@@ -1,4 +1,10 @@
 /*头部导航TOP*/
+html{
+	
+min-width:1080px; 
+
+height: 100%;
+}
 .navTop{
 	width: 100%;
 

@@ -11,9 +11,10 @@
      <link rel="stylesheet" type="text/css" href="css/details.css">
 </head>
 <body>
-<?php include "conmon/conmon.php" ?>
+
 <div class="detailsInfo">
-	<div class="detailsImg">
+    <div class="wrap" id="wrap">
+	<div class="detailsImg" id="small">
 		<img src="images/01_mid.jpg" class="midImg">
 		<div class="smallImg">
 			<a href="javascript:void(0)"><img src="images/01_mid.jpg"></a>
@@ -22,7 +23,12 @@
 			<a href="javascript:void(0)"><img src="images/01_mid.jpg"></a>
 			<a href="javascript:void(0)"><img src="images/02_mid.jpg"></a>
 		</div>
+        <div id="move"></div>
 	</div>
+    <div id="big">
+        <img src="images/01.jpg">
+    </div>
+    </div>
 	<div class="detailsCont">
 		<p class="title">良品铺子 手剥松子218g 坚果炒货 巴西松子</p>
 		<span class="titleSpan">店铺优惠购物满2件打8折，满3件7折</span>
@@ -105,6 +111,8 @@
 </body>
 <script type="text/javascript" src="asset/jquery-3.3.1/jquery.js"></script>
 <script type="text/javascript" src="asset/bootstrap/js/bootstrap.js"></script>
+
+<script type="text/javascript" src="js/fangdajing.js"></script>
 <script type="text/javascript">
     $(function(){
         $('.arrow .increase').bind('click',function(){

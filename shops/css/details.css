@@ -194,3 +194,40 @@ color: white;
 	margin: 0 40px ;
 	width: 900px;
 }
+#move{
+    width: 150px;
+    height: 150px;
+    /*background:rgba(255,255,255,.5);*/
+    background:#fff;
+    opacity:.5;
+    filter:alpha(opacity=50);
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor:move;
+    display:none;
+}
+#big{
+  
+    overflow:hidden;
+ 		width: 400px;
+ 		height: 482px;
+ 		top: -482px;
+ 		left: 400px;
+ 		position:relative;
+ 		z-index: 999;
+ 		padding: 10px;
+ 		border: 1px solid #ccc;
+ 		display: none;
+
+  
+}
+#big img{
+    position: absolute;
+}
+.wrap{
+	
+}
+#small{
+	position: relative;
+}

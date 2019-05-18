@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海云金融</title>
+    <!-- 引入Bootstrap核心样式文件（必须） -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <!-- 你自己的样式或其他文件 -->
+    <link rel="stylesheet" href="css/index.css">
+    <!--站点图标-->
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+</head>
+<style type="text/css">
+
+</style>
+<body>
+
+<!--头部-->
+<header id="lk_header">
+    <!--上部分-->
+    <div class="top-bar hidden-sm hidden-xs text-center text-muted">
+        <div class="container">
+            <div class="row">
+                <div class="top-bar-1 col-md-2">
+                    <a href="" class="text-muted">
+                        <i class="icon-phone"></i>
+                        <span>关注微信号</span>
+                        <span class="caret"></span>
+                        <img src="imgs/erweima.png"  width="130">
+                    </a>
+                </div>
+                <div class="top-bar-2 col-md-5">
+                    <i class="icon-tel"></i>
+                    <span>8888-555-6666（服务时间：9:00-21:00）</span>
+                </div>
+                <div class="top-bar-3 col-md-2">
+                    <a href="" class="text-muted">金融市场</a>
+                    <a href="" class="text-muted">经融服务</a>
+                </div>
+                <div class="top-bar-4 col-md-3">
+                    <a class="btn btn-default btn-sm btn-register" href="#" role="button">免费注册</a>
+                    <a href="#" role="button" class="text-muted" style="margin-left: 10px" data-toggle="modal"
+                       data-target="#lk_login">立即登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--下部分-->
+    <nav class="navbar navbar-default navbar-static-top navbar-lk">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lk_nav"
+                        aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/logo.png" width="180">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="lk_nav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="javascript:;">关于我们 </a></li>
+                    <li><a href="javascript:;">在线数据</a></li>
+                    <li><a href="javascript:;">热门产品</a></li>
+                    <li><a href="javascript:;">账户服务</a></li>
+                    <li><a href="javascript:;">投资理财</a></li>
+                    <li><a href="javascript:;">联系我们</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+                    <li><a href="#">个人中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--/头部-->
+
+<!--轮播图-->
+<section id="lk_carousel" class=" carousel carousel-fade" data-ride="carousel">
+    <!-- 指示器 -->
+    <ol class="carousel-indicators">
+        <li data-target="#lk_carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#lk_carousel" data-slide-to="1"></li>
+        <li data-target="#lk_carousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- 中间滚动的内容 -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active" data-sm-img="imgs/slide_01_640x340.jpg" data-lg-img="imgs/slide_01_2000x410.jpg">
+        </div>
+        <div class="item" data-sm-img="imgs/slide_02_640x340.jpg" data-lg-img="imgs/slide_02_2000x410.jpg">
+        </div>
+        <div class="item" data-sm-img="imgs/slide_03_640x340.jpg" data-lg-img="imgs/slide_03_2000x410.jpg">
+        </div>
+    </div>
+
+    <!-- 左右控制 -->
+    <a class="left carousel-control" href="#lk_carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#lk_carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</section>
+<!--/轮播图-->
+
+<!--关于我们-->
+<section id="lk_about" class="hidden-xs hidden-sm">
+    <!--标题-->
+    <div class="title text-center">
+        <h1><strong>关于我们</strong></h1>
+        <img src="imgs/star.png" alt="" class="img-responsive">
+    </div>
+    <!--主要内容-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+
+                <p class="text-muted">
+                      2015年7月，阳光保险集团成员企业在深圳前海投资成立海云金融，由深圳光华普惠科技有限公司运营。自成立以来，海云金融始终坚持“诚信、严谨、务实、担当”的企业价值观，通过持续不断地金融、科技创新，力图为个人与企业建立一个高效、透明的网络借贷信息中介服务平台，促进金融服务平等化，践行普惠金融理念。</p>
+                <p class="text-muted">因脱胎于保险行业，笑脸金融具有强烈的风控意识，引入“人行征信系统+移动互联网大数据征信”双征信系统，建立准入、审核、贷后、增信等4道风控保障，360度全面审核机制，努力打造一个安全可靠、风险可控的网络借贷信息中介服务平台，致力于成为最值得信赖的金融服务平台。</p>
+                <p class="text-muted">海云金融，截至2019年04月、交易规模超过240亿元，单月交易规模超过13亿元。</p>
+            </div>
+            <div class="col-md-4">
+                <img src="imgs/team.png" alt="核心团队" class="img-rounded img-responsive" width="400">
+            </div>
+            <div></div>
+        </div>
+    </div>
+
+</section>
+<!--/关于我们-->
+
+<!--产品特色-->
+<section id="lk_product">
+    <div class="container">
+        <div class="row">
+            <!-- 头部选项 -->
+            <div style="overflow: auto;">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#product1" aria-controls="home" role="tab" data-toggle="tab">在线数据</a></li>
+                    <li role="presentation"><a href="#product2" aria-controls="profile" role="tab" data-toggle="tab">智能推荐</a></li>
+                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">优质服务</a></li>
+                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">优质服务</a></li>
+                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">优质服务</a></li>
+                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">优质服务</a></li>
+                    <li class="pull-right hidden-sm hidden-xs"><a href="#" aria-controls="settings" role="tab"  data-toggle="tab">更多</a></li>
+                </ul>
+            </div>
+
+            <!-- 展示的内容 -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="product1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 pd-left">
+                                <!--第一部分-->
+                                <div id="pd_one_1" class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="imgs/erweima.png" alt="二维码" width="140">
+                                        </a>
+                                    </div>
+                                    <div class="media-body text-muted" style="padding-top: 100px">
+                                        <h5 class="media-heading">更多资讯欢迎</h5>
+                                        <h5 class="media-heading">关注海云金融</h5>
+                                    </div>
+                                </div>
+                                <!--第二部分-->
+                                <ol id="pd_one_2" class="breadcrumb lead">
+                                    <li><a href="#">理财</a></li>
+                                    <li><a href="#">贵金属</a></li>
+                                    <li><a href="#">基金</a></li>
+                                    <li><a href="#">外汇+保险</a></li>
+                                </ol>
+                                <!--第三部分-->
+                                <h1 id="pd_one_3">
+                                    500强企业强强联手打造&nbsp;&nbsp;
+                                    <strong class="text-danger">海云金融</strong>
+                                </h1>
+                                <!--第四部分-->
+                                <div id="pd_one_4">
+                                    <button class="btn btn-primary btn-lg" type="submit" style="margin-right: 20px;">
+                                        进入咨询
+                                    </button>
+                                    <button class="btn btn-default btn-lg" type="submit">了解更多</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 hidden-xs hidden-sm">
+                                <img src="imgs/p1.jpg" alt="" class="img-responsive" style="border-radius:2%; ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 hidden-sm hidden-xs">
+                                <img src="imgs/zinengtuijian.png" alt="" class="img-responsive">
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product3">
+                    <div class="container">
+                         <div class="row">
+                            <div class="col-md-12 hidden-sm hidden-xs">
+                                <img src="imgs/p2.png" alt="" class="img-responsive">
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/产品特色-->
+
+<!--热门课程-->
+<section id="lk_hot" >
+    <!--标题-->
+    <div class="title text-center">
+        <h1><strong>热门产品</strong></h1>
+        <img src="imgs/star.png" alt="" class="img-responsive">
+    </div>
+    <!--内容-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img src="imgs/yuanbao.jpg" alt="" class=" media-object img-responsive img-circle img-thumbnail"
+                             width="100">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">
+【热】</span>
+                            如意金积存
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                           业务是客户在建立如意金积存账户的基础上，对工行如意金条进行主动积存或定期积存，对于积存的如意金，客户既可以选择赎回，获得现金
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img width="100" class="media-object img-circle img-thumbnail" src="imgs/jinzhu.jpg" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>
+                            个人积存金
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                           客户在我行开立积存金账户，并签订积存协议，采取定期积存（约定每月扣款金额)或主动积存的方式，按确定金额购入我行以黄金资产为依托的黄金资产!
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img width="100" class="media-object img-circle img-thumbnail" src="imgs/gold.jpg" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>
+                            代理实物贵金属递延
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                          该业务是上海黄金交易所的挂牌交易合约，以保证金方式进行交易，客户可以选择合约交易日当天交割，也可以延期交割
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img width="100" class="media-object img-circle img-thumbnail" src="imgs/jintiao.jpg" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>
+                            账户贵金属指数
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                           以工行账户黄金、账户白银、账户铂金和账户钯金产品作为指数成分，按照一定方法编制的，综合反映工行账户贵金属各品种价格涨跌的相对数
+                        </p>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img width="100" class="media-object img-circle img-thumbnail" src="imgs/jin1.jpg" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>
+                            贵金属质押融资
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                           该业务是指以工商银行认可的贵金属作质押开展的融资业务，质押物种类有两类，在上海黄金交易所交易交割的标准贵金属和工商银行发行且接受回购
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img width="100" class="media-object img-circle img-thumbnail" src="imgs/jin2.jpg" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>
+                           实物黄金租赁
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                            该业务是指符合规定条件的法人客户向银行租赁黄金，并按照合同约定以人民币形式支付租赁费，到期归还等额黄金的业务，租赁标的为可在上海黄金!
+                        </p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/热门课程-->
+
+<!--友情链接-->
+<section id="lk_link">
+    <!--标题-->
+    <div class="title text-center">
+        <h1><strong>友情链接</strong></h1>
+        <img src="imgs/star.png" alt="" class="img-responsive">
+    </div>
+    <ul class="logos">
+        <li><a href=""><img src="imgs/ibm-logo.png" width="100" alt=""></a></li>
+        <li><a href=""><img src="imgs/facebook-logo.png" width="50" alt=""></a></li>
+        <li><a href=""><img src="imgs/google-logo.png" width="50" alt=""></a></li>
+        <li><a href=""><img src="imgs/airbnb-logo.png" width="100" alt=""></a></li>
+        <li><a href=""><img src="imgs/swift-logo.png" width="50" alt=""></a></li>
+        <li><a href=""><img src="imgs/paypal-logo.png" width="100" alt=""></a></li>
+        <li><a href=""><img src="imgs/walmart-logo.png" width="100" alt=""></a></li>
+    </ul>
+</section>
+<!--/友情链接-->
+
+<!--尾部-->
+<footer id="lk_footer">
+    <div class="container">
+        <div class="row" style="padding-top: 20px;">
+            <div class="col-md-3 col-md-offset-1 one">
+                <div class="row">
+                    <ul class="col-md-6">
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">金融产品</a></li>
+                        <li><a href="">微博公众</a></li>
+                    </ul>
+                    <ul class="col-md-6">
+                        <li><a href="">金融学堂</a></li>
+                        <li><a href="">建议反馈</a></li>
+                        <li><a href="">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 two">
+                <h5>公司地址: 上海市松江区松江大学城</h5>
+                <h5>联系电话: 六个六</h5>
+                <h5>地址邮箱: admin@666.com</h5>
+            </div>
+            <div class="col-md-3 three">
+                <h5>联系我们:</h5>
+                <a href="">
+                    <img src="imgs/weixin-h.png" alt="" width="50" data-toggle="tooltip" data-placement="bottom"
+                         title="yejh9522">
+                    <img src="imgs/xinlang-h.png" alt="" width="50" data-toggle="tooltip" data-placement="bottom"
+                         title="关注微博">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/尾部-->
+
+<!-- 登录 -->
+<div class="modal fade" id="lk_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">登录</h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" placeholder="请输入手机号码">
+                <input type="password" placeholder="请输入密码">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">登录</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/jquery/jquery.js"></script>
+<!-- 引入所有的Bootstrap的JS插件 -->
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<!-- 你自己的脚本文件 -->
+<script src="js/index.js"></script>
+</body>
+</html>

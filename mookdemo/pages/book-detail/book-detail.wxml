@@ -1,0 +1,37 @@
+<!--pages/book-detail/book-detail.wxml-->
+<view class="top">
+<image src='{{bookImg}}'></image>
+<text class="title">{{title}}</text>
+<text class="author">{{author}}</text>
+</view>
+<view class="space"></view>
+<view class="headline-view">
+    <text class="headline">书本信息</text>
+    </view>
+<view class="sub-container">
+    <view class="detail-contaner"> 
+        <text class="description">出版社 </text>
+        <text class="description">ISBN </text>
+        <text class="description">出版年 </text>
+        <text class="description">页数  </text>
+        <text class="description">定价 </text> 
+        <text class="description">装帧 </text>      
+  </view>
+   <view class="detail-contaner"> 
+        <text class="description">{{publisher}}</text>
+        <text class="description">{{isbn}}</text>
+        <text class="description">{{pubdate}}</text>
+        <text class="description">{{pages}}</text>
+        <text class="description">{{price}}</text> 
+        <text class="description">{{binding}}</text>    
+  </view>
+    </view>
+<view class="space"></view>
+<view class="container">
+<text class="summry">书籍概要</text>
+    <view class="content">
+    <text>
+    {{summary}}
+    </text>
+    </view>
+    </view>

@@ -1,0 +1,22 @@
+/* components/like/like.wxss */
+.container{
+
+  display: inline-flex;
+  flex-direction: row;
+  padding-right: 30rpx;
+  
+
+
+}
+.container image{
+ width: 32rpx;
+  height: 28rpx;
+}
+.container text{
+position: relative;
+bottom: 6rpx;
+left: 4rpx;
+font-size: 20rpx;
+line-height: 20rpx;
+
+}

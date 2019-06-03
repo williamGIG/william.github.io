@@ -1,0 +1,7 @@
+{
+  "usingComponents": {"v-music":"/components/musicCon/musicCon",
+    "v-like": "/components/like/like",
+    
+    "v-navTop": "/components/navTop/navTop",
+    "v-navi": "/components/navi/navi"}
+}

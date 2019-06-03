@@ -1,0 +1,9 @@
+<!--components/navi/navi.wxml-->
+
+  <view class="container">
+  <image bindtap="onLeft" class="icon" src='{{first?srcLeftDis:srcLeft}}'></image>
+
+  <text wx:if="{{musicTitle}}" class="title">当前曲目:  《{{musicTitle}}》</text>
+  <text wx:if="{{title}}" class="title">当前影片:  《{{title}}》</text>
+  <image  bindtap="onRight" class="icon" src='{{end?srcRightDis:srcRight}}'></image>
+  </view>

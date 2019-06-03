@@ -1,0 +1,40 @@
+/* components/navTop/navTop.wxss */
+.navTop {
+  display: flex;
+  flex-direction: row;
+  
+}
+.navTop2{
+  height: 60rpx;display: flex;
+  flex-direction: row; align-items: baseline;
+}
+.navTop .nav1{
+  color: black;
+  font-size: 38rpx;
+    line-height: 38rpx;
+}
+.navTop .nav2{
+   color: black;
+  font-size: 60rpx;
+  font-weight: bold;
+  line-height: 60rpx;
+}
+.navTop .nav3{
+ height: 44rpx;
+ border-left: 5rpx solid black;
+ margin-left: 20rpx;
+  
+  
+}
+.navTop1{
+  display: flex;
+  flex-direction: column;
+  padding-left:20rpx;
+  font-size: 22rpx; 
+  color: black;
+  margin-top:6rpx;
+  
+}
+.navTop1 .nav5{
+   font-size: 20rpx; 
+}

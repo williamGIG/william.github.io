@@ -1,0 +1,59 @@
+{
+  "pages": [
+   
+    "pages/index/index",
+    "pages/music/music",
+    "pages/book/book",
+    "pages/logs/logs",
+    "components/like/like",
+    "pages/my/my",
+    "pages/search/search"
+    
+   
+
+    ],
+
+    "requiredBackgroundModes": [
+      "audio"
+    ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "今日推荐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "black",
+    "borderStyle": "white",
+   
+    "list": [
+      {
+        "selectedIconPath": "/images/tab/tab1.png",
+        "pagePath": "pages/index/index",
+        "text": "电影",
+        "iconPath": "/images/tab/tab1-1.png"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "selectedIconPath": "/images/tab/tab2.png",
+        "iconPath": "/images/tab/tab2-2.png",
+        "text": "音乐"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "selectedIconPath": "/images/tab/book1.png",
+        "iconPath": "/images/tab/book2.png",
+        "text": "书籍"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "selectedIconPath": "/images/tab/person.png",
+        "iconPath": "/images/tab/person1.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+  
+}

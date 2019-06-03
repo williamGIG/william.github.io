@@ -1,0 +1,11 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+<view class="top">
+<v-navTop num="{{num}}"/>
+<v-like/>
+</view>
+<v-movie container_img="{{src}}" content="{{content}}" title="{{title}}"/>
+<view class="navi">
+<v-navi title="{{title}}" bindleft="onPrevious" bindright="onNext" num="{{num}}" />
+</view>
+</view>

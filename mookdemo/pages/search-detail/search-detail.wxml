@@ -1,0 +1,36 @@
+<!--pages/search-detail/search-detail.wxml-->
+ <view class="header"  >
+     <view class='box ' >
+      
+     <view class="hide">
+     
+      <text>搜索书籍</text>
+      </view>
+      <input placeholder='书籍' bindinput='onSearch' type='text'></input>
+      <image src="/components/images/search.png" ontap="searching"/>
+    </view> 
+    <view class='cancle' >
+    <navigator url='/pages/book1/book'>
+    取消
+    </navigator>
+    </view>
+  </view>
+
+
+
+<view class='container'>
+
+<view class='bar'>
+<image src='/components/images/bar.png'></image>
+<text>热门搜索</text>
+</view>
+
+<view class="xunhuan">
+  <view wx:for='{{totalitem}}' class="totalitem">
+  <navigator url="/pages/book1/book?title={{item}}">
+  <text class='item'>{{item}}</text> 
+  </navigator>
+  </view>
+  </view>
+
+</view>

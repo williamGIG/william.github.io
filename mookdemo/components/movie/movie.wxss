@@ -1,0 +1,32 @@
+/* components/movie/movie.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.container_img{
+width:100%;
+height: 380px;
+}
+.tag{
+  width: 40rpx;
+  height: 150rpx;
+  position: relative;
+ right: 250rpx;
+  bottom:60rpx;
+}
+.container .title{
+  font-size: 16px;
+  padding: 10rpx;
+  color: #485A67;
+  
+}
+.container .content{
+  color: black;
+  font-size: 26rpx;
+  text-indent:40rpx;
+  line-height: 40rpx;
+    padding: 0 20rpx;
+
+}

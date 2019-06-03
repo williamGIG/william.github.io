@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"v-book":"/components/bookCon/bookCon",
+  "v-search":"/pages/search/search"}
+}

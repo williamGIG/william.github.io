@@ -1,0 +1,6 @@
+ <view class="header"  bindtap="toSearch">
+     <view class='box' >
+      <image src="/components/images/search.png" />
+      <text>搜索书籍</text>
+    </view> 
+  </view>

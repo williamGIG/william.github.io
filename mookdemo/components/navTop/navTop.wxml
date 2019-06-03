@@ -1,0 +1,14 @@
+
+<view class="navTop">
+
+<view class='navTop2'>
+<text class="nav1">No.</text>
+<text class="nav2">{{_num}}</text>
+<view class="nav3"></view> 
+</view>
+
+<view class="navTop1">
+<text class="nav4">{{months}}</text>
+<text class="nav5">{{year}}</text>
+</view>
+</view>

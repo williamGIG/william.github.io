@@ -1,0 +1,12 @@
+<!--pages/book/book.wxml-->
+<view class="container" >
+
+ <v-search/>
+  
+  <view class="book-container">
+
+    <view class="book" wx:for="{{books}}">
+      <v-book book="{{item}}" />
+    </view>
+  </view>
+</view>

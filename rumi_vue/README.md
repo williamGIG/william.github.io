@@ -45,7 +45,7 @@ b.用户名/密码/图片验证码登陆<br/>
   c.全国城市地名A-Z检索<br/>
   
   ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/gif_two.gif)<br/>
-  ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_four.png)<br/>
+  ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_four.png)
   ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_five.png)<br/>
   
   

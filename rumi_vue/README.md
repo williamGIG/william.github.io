@@ -5,6 +5,9 @@
 3) 使用 Vue 全家桶+ES6+Webpack 等前端最新最热的技术
 4) 采用模块化、组件化、工程化的模式开发
 
+项目功能界面
+###
+
 ---
 登录/注册
 ###
@@ -23,9 +26,10 @@ b.用户名/密码/图片验证码登陆<br/>
     d. 切换显示或隐藏密码<br/>
     g. 前台验证提示<br/>
 
-![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/gif_one.gif)<br/>
-![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_one.png)<br/>
-![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_two.png)<br/>
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_one.png)
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_two.png)
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_three.png)<br/>
+
 ---
 
 搭建商家整体界面及获取用户地理位置

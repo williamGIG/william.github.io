@@ -68,9 +68,9 @@ b.用户名/密码/图片验证码登陆<br/>
 
 商家商品详情界面
 ###
-a.所有店家商品数据利用 mockjs 模拟后台数据接口
-b.vuex 管理应用组件状态,对商品数量进行管理
-c.使用组件化思想如Food/CartControl/ShopCart等组件进行页面搭建
+a.所有店家商品数据利用 mockjs 模拟后台数据接口<br/>
+b.vuex 管理应用组件状态,对商品数量进行管理<br/>
+c.使用组件化思想如Food/CartControl/ShopCart等组件进行页面搭建<br/>
 
 ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/gif_three.gif)<br/>
   ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_six.png)

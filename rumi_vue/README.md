@@ -18,7 +18,7 @@
 项目功能界面
 ---
 ###
-![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_one.png)
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home.png)
 ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_two.png)
 ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_three.png)
 ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_four.png)<br/>

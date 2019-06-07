@@ -40,7 +40,7 @@ body {
 }
 
 a {
-  color: #17e7a4;
+  color: white;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 figure img{
   border-radius: 50%;
-  border: 3px solid #904545
+      border: 3px solid #17e7a3;
 }
 .fh5co-tab-wrap {
   position: relative;

@@ -2,6 +2,8 @@
 ===
 
 ---
+###登录/注册
+
 2种方式<br/>
 手机号/短信验证码登陆<br/>
 用户名/密码/图片验证码登陆<br/>
@@ -16,6 +18,6 @@
     d. 切换显示或隐藏密码<br/>
     g. 前台验证提示<br/>
 
----
-
 ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/gif_one.gif)
+
+---

@@ -9,7 +9,8 @@
 ###
 ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_one.png)
 ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_two.png)
-![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_three.png)<br/>
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_three.png)
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_four.png)<br/>
 ---
 登录/注册
 ###

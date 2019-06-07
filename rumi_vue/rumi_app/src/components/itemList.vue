@@ -28,7 +28,7 @@
                         </div>
                       </section>
                       <section class="shop_rating_order_right">
-                        <span class="delivery_style delivery_right">硅谷专送</span>
+                        <span class="delivery_style delivery_right">糯米专送</span>
                       </section>
                     </section>
                     <section class="shop_distance" >

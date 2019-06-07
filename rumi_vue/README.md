@@ -30,9 +30,10 @@
 a.手机号/短信验证码登陆<br/>
 b.用户名/密码/图片验证码登陆<br/>
 登陆的基本流程<br/>
-       a.表单前台验证, 如果不通过, 提示<br/>
-       b.发送ajax请求, 得到返回的结果<br/>
-       c.根据结果的标识(code)来判断登陆请求是否成功<br/>
+       a.全局路由守卫监控用户是否已登录
+       b.表单前台验证, 如果不通过, 提示<br/>
+       c.发送ajax请求, 得到返回的结果<br/>
+       d.根据结果的标识(code)来判断登陆请求是否成功<br/>
 界面相关效果<br/>
     a. 切换登陆方式<br/>
     b. 手机号合法检查<br/>
@@ -67,5 +68,11 @@ b.用户名/密码/图片验证码登陆<br/>
 
 商家商品详情界面
 ###
+a.所有店家商品数据利用 mockjs 模拟后台数据接口
+b.vuex 管理应用组件状态,对商品数量进行管理
+c.使用组件化思想如Food/CartControl/ShopCart等组件进行页面搭建
 
-
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/gif_three.gif)
+  ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_six.png)
+  ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_sever.png)
+   ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_eight.png)<br/>

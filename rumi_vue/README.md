@@ -7,7 +7,9 @@
 
 项目功能界面
 ###
-
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_one.png)
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_two.png)
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_three.png)<br/>
 ---
 登录/注册
 ###
@@ -26,9 +28,7 @@ b.用户名/密码/图片验证码登陆<br/>
     d. 切换显示或隐藏密码<br/>
     g. 前台验证提示<br/>
 
-![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_one.png)
-![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_two.png)
-![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_three.png)<br/>
+
 
 ---
 

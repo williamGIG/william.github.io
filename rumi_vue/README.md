@@ -6,15 +6,17 @@
 4) 采用模块化、组件化、工程化的模式开发
 
 第三方插件库
- vue-router 开发单页应用
- axios/vue-resource 与后端进行数据交互
- vuex 管理应用组件状态
- better-scroll/vue-scroller 实现页面滑动效果
- mint-ui 组件库构建界面
- vue-lazyload 实现图片惰加载
- mockjs 模拟后台数据接口
+---
+ vue-router 开发单页应用，
+ axios/vue-resource 与后端进行数据交互，
+ vuex 管理应用组件状态，
+ better-scroll/vue-scroller 实现页面滑动效果，
+ mint-ui 组件库构建界面，
+ vue-lazyload 实现图片惰加载，
+ mockjs 模拟后台数据接口，
 
 项目功能界面
+---
 ###
 ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_one.png)
 ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/home_two.png)

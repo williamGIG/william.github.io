@@ -72,7 +72,7 @@ a.所有店家商品数据利用 mockjs 模拟后台数据接口
 b.vuex 管理应用组件状态,对商品数量进行管理
 c.使用组件化思想如Food/CartControl/ShopCart等组件进行页面搭建
 
-![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/gif_three.gif)
+![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/gif_three.gif)<br/>
   ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_six.png)
-  ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_sever.png)
+  ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_seven.png)
    ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_eight.png)<br/>

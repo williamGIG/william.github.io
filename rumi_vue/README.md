@@ -6,7 +6,8 @@
 4) 采用模块化、组件化、工程化的模式开发
 
 ---
-###登录/注册
+登录/注册
+###
 
 2种方式<br/>
 手机号/短信验证码登陆<br/>
@@ -27,5 +28,20 @@
 ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_two.png)<br/>
 ---
 
+搭建商家整体界面及获取用户地理位置
+###
+商家整体界面<br/>
+  a. 拆分界面路由<br/>
+  b. 路由的定义/配置|使用<br/>
+ 获取用户地理位置<br/>
+  a.高德地图API获取用户定位<br/>
+  b.地理位置进行模糊搜索<br/>
+  c.全国城市地名A-Z检索<br/>
+  
+  ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/gif_two.gif)<br/>
+  ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_four.png)<br/>
+  ![](https://github.com/williamGIG/williamGIG.github.io/blob/master/rumi_vue/imgs/png_five.png)<br/>
+  
+  
 
 ---

@@ -51,7 +51,11 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-bottom: 1.0em;
+
+      text-align: justify;
+      font-family: 微软雅黑, Verdana, Arial, SimSun;
+      font-size: 16px;
+      text-indent: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -105,6 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 figure img{
   border-radius: 50%;
       border: 3px solid #17e7a3;
+      padding: 5px;
 }
 .fh5co-tab-wrap {
   position: relative;
@@ -167,7 +172,7 @@ figure img{
 }
 @media screen and (max-width: 768px) {
   .fh5co-tab-wrap .fh5co-tab-menu li a .menu-text {
-    display: none;
+   font-size: 12px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -348,11 +353,12 @@ figure {
   float: left;
   width: 10%;
   display: block;
-  margin-top: 5px;
+  margin-bottom: 10px;
+
 }
 .fh5co-feature .fh5co-icon i {
   color: #17e7a4;
-  font-size: 28px;
+  font-size: 40px;
 }
 .fh5co-feature .fh5co-text {
   float: right;
@@ -364,7 +370,10 @@ figure {
   border-bottom:1px solid #ccc; 
 }
 .fh5co-feature .fh5co-text p{
-  font-size: 16px;
+     text-align: justify;
+      font-family: 微软雅黑, Verdana, Arial, SimSun;
+      font-size: 15px;
+      text-indent: 10px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-feature .fh5co-text {
